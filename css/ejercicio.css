@@ -1,9 +1,48 @@
 body{
     background-color: #eee;
 }
+p{
+    font-family: "Times New Roman";
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.5em;
+color: #222fff;
+text-align:justify;
+text-indent: 40px;
+line-height: 1.7;
+word-spacing:10px;
+text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+a{
+    color: hotpink;
+    
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    background-color: #f00;
+    border:solid 1px #d00;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 4px;
+ }
+a:link{
+    color: pink;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
+    background-color: #f55;
+}   
+
+a:active{
+    color: black;
+}   
 
 .caja{
     background-color: #fff;
+    margin-top: 90px;
     border-style: solid;
     border-width: 1px;
     border-color: #ccc;
@@ -11,9 +50,11 @@ body{
     border-top: solid 0px;
 }
 .contenido{
+    margin-top: 10px;
     padding: 10px;
 }
 .header{
+    margin-top: 90px;
 padding: 10px;
 border-bottom: solid 1px #eee;
 }
@@ -33,4 +74,101 @@ padding: 5px;
 border: 0px;
 color: #fff;
 
+}
+
+ul {
+    list-style-type: none;
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding-left: 0px;
+}
+
+li {
+border-bottom: solid 1px #ddd;
+padding: 15px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+background-color: #f2f2f2;
+}
+td{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+table th{
+    background-color: #4caf50;
+    color:white;
+    text-align: left;
+    padding-left: 8px;
+padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+span {
+    display: block;
+}
+#wit {
+    max-width: 350;
+    background-color: #f00;
+    color: #ccc;
+    margin: auto;
+    position: fixed;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+
+
+}
+
+#over{
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+}
+#fit{
+    margin-left: auto;
+}
+img{
+    float: left;
+}
+img:hover{
+    opacity: 0.9;
+}
+#flot #flt {
+    color: #4caf50;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+
+}
+#menu1{
+    float: left;
+}
+#menu1 a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+}
+#menu1:hover{
+    background-color: rgba(0,0, 0, 3);
+}
+.active{
+    background-color: #4caf50;
 }
